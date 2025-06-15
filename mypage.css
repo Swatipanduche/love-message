@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+
+}
+
+#hidden-content {
+    display: none;
+    /* hidden by default */
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.text-center {
+    text-align: center;
+    justify-content: center;
+}
+
+
+button {
+    background: pink;
+    text-align: center;
+    padding: 20px;
+    width: 66px;
+    margin: 18px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-color: aqua;
+}
